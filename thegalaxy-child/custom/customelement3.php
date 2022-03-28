@@ -16,7 +16,7 @@
 			
 			echo '<h3>' . $heading . '</h3>';
 			
-			echo '<a href="' . $link['url'] . '" target="' . $link['target'] . '">' . $link['title'] . '</a>';
+// 			echo '<a href="' . $link['url'] . '" target="' . $link['target'] . '">' . $link['title'] . '</a>';
 			
 			echo '</div>';
 				

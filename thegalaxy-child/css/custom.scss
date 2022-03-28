@@ -25,12 +25,37 @@ $lightfont: #FFFFFF;
 
 header {
 	
+	#nav_bar {
+		#nav_menu {
+			#logo_main {
+				img {
+					height: 76px;
+					padding: 10px 0px 10px 20px;
+				}
+			}
+		}
+		
+		&.scroll-fix {
+			#nav_menu {
+				#logo_main {
+					img {
+						height: 51px;
+					}
+				}
+			}
+		}
+	}
+	
 	&#header_home {
 		background: $background url('../img/home.png');
 		background-size: cover;
 		background-position: center top;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
+		
+		&.fixed_tall {
+			height: 700px;
+		}
 		
 		#home_logo {
 			width: 600px;
@@ -280,6 +305,30 @@ header {
 				color: $darkfont;
 				line-height: 28px;
 			}
+		}
+	}
+}
+
+.page-id-67 {
+	header {
+		&#header_page {
+			background: $background url('../img/page_treatments.png');
+			background-size: 100%;
+			background-position: center top;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+		}
+	}
+}
+
+.page-id-108 {
+	header {
+		&#header_page {
+			background: $background url('../img/page_patients.png');
+			background-size: 100%;
+			background-position: center top;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
 		}
 	}
 }
